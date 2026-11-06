@@ -1,0 +1,71 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Set up Heatpump Efficiency",
+        "description": "Select the 4 total energy sensors (kWh / Wh) of your heat pump to calculate efficiency (COP / SCOP) for Today, Month, Year, and Total.",
+        "data": {
+          "name": "Integration / Device Name",
+          "consumed_heating_entity": "Consumed Electrical Energy – Heating",
+          "produced_heating_entity": "Produced Thermal Energy – Heating",
+          "consumed_hot_water_entity": "Consumed Electrical Energy – Hot Water",
+          "produced_hot_water_entity": "Produced Thermal Energy – Hot Water"
+        }
+      }
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Heatpump Efficiency – Update Sensors",
+        "description": "Update the source sensors for consumed and produced energy.",
+        "data": {
+          "consumed_heating_entity": "Consumed Electrical Energy – Heating",
+          "produced_heating_entity": "Produced Thermal Energy – Heating",
+          "consumed_hot_water_entity": "Consumed Electrical Energy – Hot Water",
+          "produced_hot_water_entity": "Produced Thermal Energy – Hot Water"
+        }
+      }
+    }
+  },
+  "entity": {
+    "sensor": {
+      "efficiency_heating_today": {
+        "name": "Heating Efficiency Today"
+      },
+      "efficiency_hot_water_today": {
+        "name": "Hot Water Efficiency Today"
+      },
+      "efficiency_total_today": {
+        "name": "Total Efficiency Today"
+      },
+      "efficiency_heating_month": {
+        "name": "Heating Efficiency Month"
+      },
+      "efficiency_hot_water_month": {
+        "name": "Hot Water Efficiency Month"
+      },
+      "efficiency_total_month": {
+        "name": "Total Efficiency Month"
+      },
+      "efficiency_heating_year": {
+        "name": "Heating Efficiency Year"
+      },
+      "efficiency_hot_water_year": {
+        "name": "Hot Water Efficiency Year"
+      },
+      "efficiency_total_year": {
+        "name": "Total Efficiency Year"
+      },
+      "efficiency_heating_total": {
+        "name": "Heating Efficiency Total"
+      },
+      "efficiency_hot_water_total": {
+        "name": "Hot Water Efficiency Total"
+      },
+      "efficiency_total_total": {
+        "name": "Total Efficiency Total"
+      }
+    }
+  }
+}

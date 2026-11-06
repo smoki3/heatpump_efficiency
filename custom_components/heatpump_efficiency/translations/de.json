@@ -1,0 +1,71 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Wärmepumpe Effizienz einrichten",
+        "description": "Wähle die 4 Gesamtzähler-Sensoren (kWh / Wh) deiner Wärmepumpe aus, um die Arbeitszahlen (COP / JAZ) für Heute, Monat, Jahr und Gesamt zu berechnen.",
+        "data": {
+          "name": "Name der Integration / des Geräts",
+          "consumed_heating_entity": "Verbrauchte elektrische Energie – Heizung",
+          "produced_heating_entity": "Erzeugte Wärmeenergie – Heizung",
+          "consumed_hot_water_entity": "Verbrauchte elektrische Energie – Warmwasser",
+          "produced_hot_water_entity": "Erzeugte Wärmeenergie – Warmwasser"
+        }
+      }
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Wärmepumpe Effizienz – Sensoren anpassen",
+        "description": "Passe die Quell-Sensoren für Verbrauchs- und Wärmemengen an.",
+        "data": {
+          "consumed_heating_entity": "Verbrauchte elektrische Energie – Heizung",
+          "produced_heating_entity": "Erzeugte Wärmeenergie – Heizung",
+          "consumed_hot_water_entity": "Verbrauchte elektrische Energie – Warmwasser",
+          "produced_hot_water_entity": "Erzeugte Wärmeenergie – Warmwasser"
+        }
+      }
+    }
+  },
+  "entity": {
+    "sensor": {
+      "efficiency_heating_today": {
+        "name": "Effizienz Heizung Heute"
+      },
+      "efficiency_hot_water_today": {
+        "name": "Effizienz Warmwasser Heute"
+      },
+      "efficiency_total_today": {
+        "name": "Gesamteffizienz Heute"
+      },
+      "efficiency_heating_month": {
+        "name": "Effizienz Heizung Monat"
+      },
+      "efficiency_hot_water_month": {
+        "name": "Effizienz Warmwasser Monat"
+      },
+      "efficiency_total_month": {
+        "name": "Gesamteffizienz Monat"
+      },
+      "efficiency_heating_year": {
+        "name": "Effizienz Heizung Jahr"
+      },
+      "efficiency_hot_water_year": {
+        "name": "Effizienz Warmwasser Jahr"
+      },
+      "efficiency_total_year": {
+        "name": "Gesamteffizienz Jahr"
+      },
+      "efficiency_heating_total": {
+        "name": "Effizienz Heizung Gesamt"
+      },
+      "efficiency_hot_water_total": {
+        "name": "Effizienz Warmwasser Gesamt"
+      },
+      "efficiency_total_total": {
+        "name": "Gesamteffizienz Gesamt"
+      }
+    }
+  }
+}
