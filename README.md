@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="logo.png" alt="Heatpump Efficiency Logo" width="180" />
+  <img src="https://raw.githubusercontent.com/smoki3/heatpump_efficiency/main/logo.png" alt="Heatpump Efficiency Logo" width="180" />
 </p>
 
 # Heatpump Efficiency (Wärmepumpe Effizienz – COP / AZ / JAZ)
