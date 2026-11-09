@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="logo.png" alt="Heatpump Efficiency Logo" width="180" />
+</p>
+
 # Heatpump Efficiency (Wärmepumpe Effizienz – COP / AZ / JAZ)
 
 Eine benutzerdefinierte Home Assistant Integration zur automatischen Berechnung der Effizienz (Arbeitszahl / JAZ / COP) einer Wärmepumpe für **Heute**, **Monat**, **Jahr** und **Gesamt** – jeweils unterteilt in **Heizung**, **Warmwasser** und **Gesamteffizienz**.
